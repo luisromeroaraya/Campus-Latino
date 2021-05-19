@@ -28,10 +28,14 @@
               <router-link to="/" class="nav-link">Inicio</router-link>
             </li>
             <li class="nav-item">
-              <router-link to="/about" class="nav-link">Sobre nosotros</router-link>
+              <router-link to="/about" class="nav-link"
+                >Sobre nosotros</router-link
+              >
             </li>
             <li class="nav-item">
-              <router-link to="/episodes" class="nav-link">Episodios</router-link>
+              <router-link to="/episodes" class="nav-link"
+                >Episodios</router-link
+              >
             </li>
             <li class="nav-item">
               <router-link to="/contact" class="nav-link">Contacto</router-link>

@@ -1,5 +1,8 @@
 <template>
-  <footer id="footer" class="footer container-fluid bg-light text-center text-muted">
+  <footer
+    id="footer"
+    class="footer container-fluid bg-light text-center text-muted"
+  >
     <p>Campus Latino © 2021</p>
   </footer>
 </template>

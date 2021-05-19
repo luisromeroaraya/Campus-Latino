@@ -1,5 +1,5 @@
 <template>
-  <div class="card mb-3" style="max-width: 540px; margin:auto">
+  <div class="card mb-3" style="max-width: 540px; margin: auto">
     <div class="row g-0">
       <div class="col-md-4">
         <img
@@ -19,8 +19,12 @@
             >
           </h5>
           <p class="card-text">
-            <i class="bi bi-play"></i>Reproducciones: {{ episode.play_count }}<br>
-            <i class="bi bi-clock"></i> Duración: {{ Math.floor(episode.audio_length/60/60) }}h{{ Math.floor(episode.audio_length/60%60) }}m
+            <i class="bi bi-play"></i>Reproducciones: {{ episode.play_count
+            }}<br />
+            <i class="bi bi-clock"></i> Duración:
+            {{ Math.floor(episode.audio_length / 60 / 60) }}h{{
+              Math.floor((episode.audio_length / 60) % 60)
+            }}m
           </p>
           <p class="card-text">
             <small class="text-muted"
@@ -34,17 +38,17 @@
 </template>
 
 <script>
-import moment from 'moment'; // Used to format date/time output
+import moment from "moment"; // Used to format date/time output
 
 export default {
   name: "Episode",
   props: ["episode"],
-  methods: { 
-      format_date(value){
-         if (value) {
-           return moment(String(value)).format('DD/MM/YYYY');
-          }
-      },
-   },
+  methods: {
+    format_date(value) {
+      if (value) {
+        return moment(String(value)).format("DD/MM/YYYY");
+      }
+    },
+  },
 };
 </script>
