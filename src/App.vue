@@ -1,58 +1,20 @@
 <template>
   <div id="app">
     <Header />
-    <Welcome msg="Bienvenido a Campus Latino" />
-    <div id="episodes" class="container" style="padding-top: 10rem">
-      <h2>Episodios</h2>
-      <Episodes
-        v-for="episode in episodes"
-        v-bind:episode="episode"
-        v-bind:key="episode.key"
-      ></Episodes>
-    </div>
-    <About />
-
-    <Contact />
-
+    <router-view />
     <Footer />
   </div>
 </template>
 
 <script>
-import Welcome from "./components/Welcome.vue";
-import Header from "./components/Header.vue";
-import Footer from "./components/Footer.vue";
-import Episodes from "./components/Episodes.vue";
-import About from "./components/About.vue";
-import Contact from "./components/Contact.vue";
-import getEpisodes from "./api";
+import Footer from "@/components/Footer.vue";
+import Header from "@/components/Header.vue";
 
 export default {
   name: "App",
-  data() {
-    return {
-      episodes: [],
-    };
-  },
   components: {
-    Welcome,
-    Header,
     Footer,
-    Episodes,
-    About,
-    Contact,
-  },
-  mounted() {
-    this.refreshEpisodes();
-  },
-  methods: {
-    refreshEpisodes() {
-      const self = this;
-      getEpisodes().then(function (episodes) {
-        self.episodes = episodes;
-        console.log(episodes);
-      });
-    },
+    Header,
   },
 };
 </script>
@@ -61,6 +23,18 @@ export default {
 #app {
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+}
+
+#nav {
+  padding: 30px;
+}
+
+#nav a {
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+#nav a.router-link-exact-active {
+  color: #42b983;
 }
 </style>

@@ -37,7 +37,7 @@
 import moment from 'moment'; // Used to format date/time output
 
 export default {
-  name: "Episodes",
+  name: "Episode",
   props: ["episode"],
   methods: { 
       format_date(value){

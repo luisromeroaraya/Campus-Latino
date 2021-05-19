@@ -25,18 +25,16 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="/"
-                >Inicio</a
-              >
+              <router-link to="/" class="nav-link">Inicio</router-link>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#episodes">Episodios</a>
+              <router-link to="/about" class="nav-link">Sobre nosotros</router-link>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#about">Sobre nosotros</a>
+              <router-link to="/episodes" class="nav-link">Episodios</router-link>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#contact">Contacto</a>
+              <router-link to="/contact" class="nav-link">Contacto</router-link>
             </li>
           </ul>
           <p id="player">
