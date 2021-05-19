@@ -1,9 +1,5 @@
 <template>
-  <div
-    id="contact"
-    class="container"
-    style="padding-top: 10rem; width: 50rem"
-  >
+  <div id="contact" class="container" style="padding-top: 8rem; width: 50rem">
     <h2>Contacto</h2>
     <form
       id="contact-form"

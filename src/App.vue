@@ -2,14 +2,18 @@
   <div id="app">
     <Header />
     <Welcome msg="Bienvenido a Campus Latino" />
-    <div id="episodes" class="container p-5" style="padding-top: 10rem">
-        <h2>Episodios</h2>
-        <ul>
-            <Episodes v-for="episode in episodes" v-bind:episode="episode" v-bind:key="episode.key"></Episodes>
-        </ul>
+    <div id="episodes" class="container" style="padding-top: 10rem">
+      <h2>Episodios</h2>
+      <Episodes
+        v-for="episode in episodes"
+        v-bind:episode="episode"
+        v-bind:key="episode.key"
+      ></Episodes>
     </div>
     <About />
+
     <Contact />
+
     <Footer />
   </div>
 </template>

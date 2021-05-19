@@ -1,5 +1,5 @@
 <template>
-  <div class="card mb-3" style="max-width: 540px">
+  <div class="card mb-3" style="max-width: 540px; margin:auto">
     <div class="row g-0">
       <div class="col-md-4">
         <img
@@ -11,15 +11,20 @@
       <div class="col-md-8">
         <div class="card-body">
           <h5 class="card-title">
-            <a v-bind:href="episode.url" target="_blank">{{ episode.name }}</a>
+            <a
+              v-bind:href="episode.url"
+              target="_blank"
+              class="text-decoration-none"
+              >{{ episode.name }}</a
+            >
           </h5>
           <p class="card-text">
-            This is a wider card with supporting text below as a natural lead-in
-            to additional content. This content is a little bit longer.
+            <i class="bi bi-play"></i>Reproducciones: {{ episode.play_count }}<br>
+            <i class="bi bi-clock"></i> Duración: {{ Math.floor(episode.audio_length/60/60) }}h{{ Math.floor(episode.audio_length/60%60) }}m
           </p>
           <p class="card-text">
             <small class="text-muted"
-              >Last updated: {{ episode.updated_time }}</small
+              >Fecha de subida: {{ format_date(episode.updated_time) }}</small
             >
           </p>
         </div>
@@ -29,8 +34,17 @@
 </template>
 
 <script>
+import moment from 'moment'; // Used to format date/time output
+
 export default {
   name: "Episodes",
   props: ["episode"],
+  methods: { 
+      format_date(value){
+         if (value) {
+           return moment(String(value)).format('DD/MM/YYYY');
+          }
+      },
+   },
 };
 </script>
