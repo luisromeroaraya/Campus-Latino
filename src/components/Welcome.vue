@@ -1,5 +1,5 @@
 <template>
-  <div id="welcome" class="vh-100">
+  <div id="welcome" class="container p-5">
     <img alt="Vue logo" src="../assets/logo.png" />
     <h1>{{ msg }}</h1>
     <strong>La radio de la comunidad latinoamericana en Bruselas</strong>

@@ -1,5 +1,5 @@
 <template>
-  <div id="about" class="container vh-100 text-start" style="padding-top: 10rem">
+  <div id="about" class="container text-start" style="padding-top: 10rem">
     <h2>Sobre nosotros</h2>
     <strong
       >Campus Latino - Todos los domingos de 11:00 a.m. a 2:30 p.m.</strong

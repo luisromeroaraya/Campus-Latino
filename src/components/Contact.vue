@@ -1,7 +1,7 @@
 <template>
   <div
     id="contact"
-    class="container vh-100"
+    class="container"
     style="padding-top: 10rem; width: 50rem"
   >
     <h2>Contacto</h2>
