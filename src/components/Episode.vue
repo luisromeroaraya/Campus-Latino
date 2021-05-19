@@ -11,11 +11,10 @@
       <div class="col-md-8">
         <div class="card-body">
           <h5 class="card-title">
-            <a
-              v-bind:href="episode.url"
-              target="_blank"
+            <router-link
+              :to="'/player/' + episode.slug"
               class="text-decoration-none"
-              >{{ episode.name }}</a
+              >{{ episode.name }}</router-link
             >
           </h5>
           <p class="card-text">

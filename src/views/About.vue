@@ -53,6 +53,5 @@
 <script>
 export default {
   name: "About",
-  props: {},
 };
 </script>

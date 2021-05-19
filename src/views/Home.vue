@@ -1,7 +1,6 @@
 <template>
   <div id="home" class="container pb-5" style="padding-top: 6rem">
     <img alt="Vue logo" src="../assets/logo.png" />
-    <h1>{{ msg }}</h1>
     <strong>La radio de la comunidad latinoamericana en Bruselas</strong>
     <br />
     <p>
@@ -24,9 +23,6 @@
 <script>
 export default {
   name: "Home",
-  props: {
-    msg: String,
-  },
 };
 </script>
 

@@ -14,7 +14,7 @@ import Episode from "@/components/Episode.vue";
 import getEpisodes from "@/api";
 
 export default {
-  name: "App",
+  name: "Episodes",
   data() {
     return {
       episodes: [],
