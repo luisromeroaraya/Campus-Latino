@@ -1,4 +1,4 @@
-#vue-podcast
+# vue-podcast
 
 I'll try to create a podcast website using [Vue.js](https://cli.vuejs.org/) and the [Mixcloud API](https://www.mixcloud.com/developers/).
 
