@@ -1,6 +1,4 @@
-<p align="center">
-![Radio Campus Banner](https://worlddomination.be/static/img/src/radiocampus.jpg)
-</p>
+<img align="center" width="100%" src="https://worlddomination.be/static/img/src/radiocampus.jpg" alt="Radio Campus Banner">
 
 # vue-podcast
 
