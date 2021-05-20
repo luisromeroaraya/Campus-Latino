@@ -1,4 +1,4 @@
-<img align="center" width="100%" src="https://worlddomination.be/static/img/src/radiocampus.jpg" alt="Radio Campus Banner">
+<img align="center" src="https://i1.sndcdn.com/avatars-000035004735-ai31p0-t500x500.jpg" alt="Campus Latino">
 
 # vue-podcast
 
@@ -27,6 +27,4 @@ Episodes are uploaded weekly to the Mixcloud platform under the [Radio Campus ac
 Since Radio Campus hosts plenty of shows in their mixcloud account our shows are somehow lost in the sea, so the goal is to make an independent website where people can browse only between Campus Latino uploaded episodes.
 </p>
 
-<p align="center">
-![Campus Latino](https://i1.sndcdn.com/avatars-000035004735-ai31p0-t500x500.jpg)
-</p>
+<img align="center" width="100%" src="https://worlddomination.be/static/img/src/radiocampus.jpg" alt="Radio Campus Banner">
