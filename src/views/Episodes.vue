@@ -31,6 +31,7 @@ export default {
       const self = this;
       getEpisodes().then(function (episodes) {
         self.episodes = episodes;
+        console.log(episodes);
       });
     },
   },
