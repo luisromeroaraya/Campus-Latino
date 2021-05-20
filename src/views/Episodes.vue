@@ -6,6 +6,7 @@
       v-bind:episode="episode"
       v-bind:key="episode.key"
     ></Episode>
+    <a v-if="next.length > 1" href="episodes/2">Siguiente página</a>
   </div>
 </template>
 
@@ -18,6 +19,7 @@ export default {
   data() {
     return {
       episodes: [],
+      next: "",
     };
   },
   components: {
@@ -30,7 +32,8 @@ export default {
     refreshEpisodes() {
       const self = this;
       getEpisodes().then(function (episodes) {
-        self.episodes = episodes;
+        self.episodes = episodes.data;
+        self.next = episodes.paging.next;
         console.log(episodes);
       });
     },
