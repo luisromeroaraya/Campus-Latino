@@ -1,4 +1,6 @@
-<img align="center" src="https://i1.sndcdn.com/avatars-000035004735-ai31p0-t500x500.jpg" alt="Campus Latino">
+<p align="center">
+<img width="250" src="https://i1.sndcdn.com/avatars-000035004735-ai31p0-t500x500.jpg" alt="Campus Latino">
+</p>
 
 # vue-podcast
 
