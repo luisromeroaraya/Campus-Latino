@@ -2,9 +2,8 @@
 
 # vue-podcast
 
-![Mixcloud logo](https://lh3.googleusercontent.com/proxy/iNVOtvvK30VO-WRFGH6xISe-Z-ClJDoIDmWEDR3lQKTSNliE-FWgXwWPjELHEt2Stlb_ag03-B6kTTeHMoUgbr4eJU2CgQMb8NseHevZf_8_ag)
 ![Vue logo](https://www.dotcom-monitor.com/blog/wp-content/uploads/sites/3/2020/05/Vue-logo-1.png)
-
+![Mixcloud logo](https://lh3.googleusercontent.com/proxy/iNVOtvvK30VO-WRFGH6xISe-Z-ClJDoIDmWEDR3lQKTSNliE-FWgXwWPjELHEt2Stlb_ag03-B6kTTeHMoUgbr4eJU2CgQMb8NseHevZf_8_ag)
 
 I'll try to create a podcast website using [Vue.js](https://cli.vuejs.org/) and the [Mixcloud API](https://www.mixcloud.com/developers/).
 
