@@ -1,14 +1,10 @@
 <template>
-  <div
-    id="contact"
-    class="container pb-5"
-    style="padding-top: 6rem; width: 50rem"
-  >
+  <div id="contact" class="container py-5">
     <h2>Contacto</h2>
     <form
       id="contact-form"
       class="text-center"
-      style="width: 100%; max-width: 30rem; margin: auto"
+      style="max-width: 500px; margin: auto"
     >
       <!-- Name input -->
       <div class="form-outline mb-4">

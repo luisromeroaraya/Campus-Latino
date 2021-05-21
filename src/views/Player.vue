@@ -1,5 +1,5 @@
 <template>
-  <div id="play" class="container pb-5" style="padding-top: 6rem">
+  <div id="play" class="container py-5">
     <h2>Reproductor</h2>
 
     <div class="card mb-3" style="max-width: 800px; margin: auto">
@@ -8,21 +8,28 @@
           <div class="card-body">
             <h5 class="card-title">
               <iframe
-                v-bind:src="'https://www.mixcloud.com/widget/iframe/?feed=https://www.mixcloud.com/radiocampusbruxelles/' + this.data.slug + '/&hide_cover=1'"
+                v-bind:src="
+                  'https://www.mixcloud.com/widget/iframe/?feed=https://www.mixcloud.com/radiocampusbruxelles/' +
+                  this.data.slug +
+                  '/&hide_cover=1'
+                "
                 style="border: 0; width: 100%; height: 120px"
                 allowfullscreen
                 scrolling="no"
                 allow="encrypted-media"
-                ></iframe>
+              ></iframe>
             </h5>
             <p class="card-text" align="left">
-                <i class="bi bi-play"></i>Reproducciones: {{ this.data.play_count}}
+              <i class="bi bi-play"></i>Reproducciones:
+              {{ this.data.play_count }}
             </p>
             <p class="card-text" align="left">
-                {{ this.data.description }}
+              {{ this.data.description }}
             </p>
             <p class="card-text" align="left">
-                <small class="text-muted">Fecha de subida: {{ this.data.updated_time }}</small>
+              <small class="text-muted"
+                >Fecha de subida: {{ this.data.updated_time }}</small
+              >
             </p>
           </div>
         </div>

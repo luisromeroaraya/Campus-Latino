@@ -1,8 +1,8 @@
 <template>
   <header id="header">
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container">
-        <a class="navbar-brand" href="/">
+        <a class="navbar-brand mx-auto" href="/">
           <img
             class="bi me-2"
             width="40"
@@ -24,44 +24,44 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-            <li class="nav-item">
+            <li class="nav-item align-self-center">
               <router-link to="/" class="nav-link">Inicio</router-link>
             </li>
-            <li class="nav-item">
+            <li class="nav-item align-self-center">
               <router-link to="/about" class="nav-link"
                 >Sobre nosotros</router-link
               >
             </li>
-            <li class="nav-item">
-              <router-link to="/episodes" class="nav-link"
+            <li class="nav-item align-self-center">
+              <router-link to="/episodes/1" class="nav-link"
                 >Episodios</router-link
               >
             </li>
-            <li class="nav-item">
+            <li class="nav-item align-self-center">
               <router-link to="/contact" class="nav-link">Contacto</router-link>
             </li>
+            <li id="player">
+              <audio preload="metadata" controls="controls">
+                Your browser does not support the <code>audio</code> element.
+                <source
+                  src="https://www.radiocampus.be/stream/stream_hi.ogg"
+                  type="audio/ogg"
+                />
+                <source
+                  src="https://www.radiocampus.be/stream/stream_low.ogg"
+                  type="audio/ogg"
+                />
+                <source
+                  src="https://www.radiocampus.be/stream/stream.mp3"
+                  type="audio/mpeg"
+                />
+                <source
+                  src="https://www.radiocampus.be/stream/stream.aacplus"
+                  type="audio/mp4"
+                />
+              </audio>
+            </li>
           </ul>
-          <p id="player">
-            <audio preload="metadata" controls="controls">
-              Your browser does not support the <code>audio</code> element.
-              <source
-                src="https://www.radiocampus.be/stream/stream_hi.ogg"
-                type="audio/ogg"
-              />
-              <source
-                src="https://www.radiocampus.be/stream/stream_low.ogg"
-                type="audio/ogg"
-              />
-              <source
-                src="https://www.radiocampus.be/stream/stream.mp3"
-                type="audio/mpeg"
-              />
-              <source
-                src="https://www.radiocampus.be/stream/stream.aacplus"
-                type="audio/mp4"
-              />
-            </audio>
-          </p>
         </div>
       </div>
     </nav>
