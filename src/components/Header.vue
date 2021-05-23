@@ -2,7 +2,7 @@
   <header id="header">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container">
-        <a class="navbar-brand mx-auto" href="/">
+        <router-link to="/" class="navbar-brand mx-auto">
           <img
             class="bi me-2"
             width="40"
@@ -10,7 +10,7 @@
             src="../assets/logo-transparent.png"
           />
           <span class="fs-4">Campus Latino 92.1 FM</span>
-        </a>
+        </router-link>
         <button
           class="navbar-toggler"
           type="button"
