@@ -6,7 +6,7 @@
       v-bind:episode="episode"
       v-bind:key="episode.key"
     ></Episode>
-    <a
+    <!-- <a
       class="mx-5"
       v-if="previous.length > 1"
       v-bind:href="'/episodes/' + (parseInt(this.page) - 1)"
@@ -17,7 +17,7 @@
       v-if="next.length > 1"
       v-bind:href="'/episodes/' + (parseInt(this.page) + 1)"
       >Siguiente</a
-    >
+    > -->
   </div>
 </template>
 
@@ -43,17 +43,9 @@ export default {
   },
   methods: {
     refreshEpisodes() {
-      const self = this;
-      getEpisodes(this.page).then(function (episodes) {
-        self.episodes = episodes.data;
-        if (episodes.paging.previous) {
-          self.previous = episodes.paging.previous;
-        }
-        if (episodes.paging.next) {
-          self.next = episodes.paging.next;
-        }
-        console.log(episodes);
-      });
+      const URL =
+        "https://api.mixcloud.com/search/?limit=100&offset=0&q=campus+latino&type=cloudcast";
+      getEpisodes(URL, this.episodes);
     },
   },
 };

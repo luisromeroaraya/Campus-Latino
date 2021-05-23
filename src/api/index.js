@@ -1,9 +1,13 @@
-const URL = "https://api.mixcloud.com/search/?limit=20&offset=:offset&q=campus+latino&type=cloudcast"
-
-export default function getEpisodes(page) {
-    const offset = (page-1)*20;
-    const url = URL.replace(":offset", offset);
-    return fetch(url)
+export default function getEpisodes(URL, episodes) {
+    return fetch(URL)
         .then(res => res.json())
-//        .then(json => json.data);
+        .then(json => {
+            json.data.forEach( function (element) {
+                episodes.push(element);
+            });
+            episodes.sort((a, b) => (a.name > b.name) ? -1 : 1)
+            if (json.paging.next) {
+                getEpisodes(json.paging.next, episodes);
+            }
+        });
 }

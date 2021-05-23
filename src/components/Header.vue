@@ -33,7 +33,7 @@
               >
             </li>
             <li class="nav-item align-self-center">
-              <router-link to="/episodes/1" class="nav-link"
+              <router-link to="/episodes" class="nav-link"
                 >Episodios</router-link
               >
             </li>
