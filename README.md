@@ -1,4 +1,4 @@
-# [vue-podcast](https://luisromeroaraya.github.io/vue-podcast/)
+# [Campus-Latino Podcast Website](https://luisromeroaraya.github.io/Campus-Latino/)
 
 <img height="200" src="https://www.dotcom-monitor.com/blog/wp-content/uploads/sites/3/2020/05/Vue-logo-1.png" alt="Vue logo"><img height="200" src="https://www.mixcloud.com/media/images/www/global/mixcloud-og-image.jpg" alt="Mixcloud logo">
 
