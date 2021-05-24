@@ -54,6 +54,7 @@
         name="_redirect"
         value="https://luisromeroaraya.github.io/campus-latino"
       />
+      <input type="hidden" name="_append" value="false" />
       <!-- Submit button -->
       <button type="submit" class="btn btn-primary btn-block">Enviar</button>
     </form>
