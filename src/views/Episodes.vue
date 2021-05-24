@@ -1,6 +1,6 @@
 <template>
   <div id="episodes" class="container py-5">
-    <h2>Episodios</h2>
+    <h2 class="mb-2">Episodios</h2>
     <div class="row">
       <div class="col-12 col-lg-5 mt-2" style="margin: auto">
         <p>Buscar: <input class="w-100" v-model="filterText" /></p>

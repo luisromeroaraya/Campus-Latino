@@ -1,13 +1,9 @@
 <template>
   <div id="contact" class="container py-5">
-    <h2>Contacto</h2>
-    <form
-      id="contact-form"
-      class="text-center"
-      style="max-width: 500px; margin: auto"
-    >
+    <h2 class="mb-3">Contacto</h2>
+    <form method="POST" action="https://submit-form.com/Fy3Hr5P9" data-botpoison-public-key="pk_6bc5391f-541a-456f-8ddc-02d475af848b" id="contact-form" style="max-width: 500px; margin: auto">
       <!-- Name input -->
-      <div class="form-outline mb-4">
+      <div class="form-outline mb-2">
         <input
           type="text"
           id="name"
@@ -15,15 +11,9 @@
           class="form-control"
           placeholder="Nombre"
         />
-        <div class="form-notch">
-          <div class="form-notch-leading" style="width: 9px"></div>
-          <div class="form-notch-middle" style="width: 42.4px"></div>
-          <div class="form-notch-trailing"></div>
-        </div>
       </div>
-
       <!-- Email input -->
-      <div class="form-outline mb-4">
+      <div class="form-outline mb-2">
         <input
           type="email"
           id="email"
@@ -31,15 +21,9 @@
           class="form-control"
           placeholder="Correo electrónico"
         />
-        <div class="form-notch">
-          <div class="form-notch-leading" style="width: 9px"></div>
-          <div class="form-notch-middle" style="width: 88.8px"></div>
-          <div class="form-notch-trailing"></div>
-        </div>
       </div>
-
       <!-- Subject input -->
-      <div class="form-outline mb-4">
+      <div class="form-outline mb-2">
         <input
           type="text"
           id="subject"
@@ -47,15 +31,9 @@
           class="form-control"
           placeholder="Sujeto"
         />
-        <div class="form-notch">
-          <div class="form-notch-leading" style="width: 9px"></div>
-          <div class="form-notch-middle" style="width: 50.4px"></div>
-          <div class="form-notch-trailing"></div>
-        </div>
       </div>
-
       <!-- Message input -->
-      <div class="form-outline mb-4">
+      <div class="form-outline mb-2">
         <textarea
           class="form-control"
           id="message"
@@ -63,15 +41,9 @@
           placeholder="Déjanos tu mensaje..."
           rows="4"
         ></textarea>
-        <div class="form-notch">
-          <div class="form-notch-leading" style="width: 9px"></div>
-          <div class="form-notch-middle" style="width: 60px"></div>
-          <div class="form-notch-trailing"></div>
-        </div>
       </div>
-
       <!-- Submit button -->
-      <button class="btn btn-primary btn-block mb-4">Enviar</button>
+      <button type="submit" class="btn btn-primary btn-block">Enviar</button>
     </form>
   </div>
 </template>

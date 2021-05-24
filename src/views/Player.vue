@@ -1,6 +1,6 @@
 <template>
   <div id="play" class="container py-5">
-    <h2>Reproductor</h2>
+    <h2 class="mb-5">Reproductor</h2>
     <div class="card my-2" style="max-width: 800px; margin: auto">
       <div class="row g-0">
         <div class="col">
