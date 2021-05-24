@@ -1,4 +1,4 @@
-# [Campus Latino podcast website](https://luisromeroaraya.github.io/campus-latino/)
+# [Campus Latino podcast website](http://www.campuslatino.tk)
 
 <img height="200" src="https://www.dotcom-monitor.com/blog/wp-content/uploads/sites/3/2020/05/Vue-logo-1.png" alt="Vue logo"><img height="200" src="https://www.mixcloud.com/media/images/www/global/mixcloud-og-image.jpg" alt="Mixcloud logo">
 
@@ -21,6 +21,6 @@ Since Radio Campus hosts plenty of shows in their mixcloud account our shows are
 
 ## Current status
 
-The site is currently working and deployed [here.](https://luisromeroaraya.github.io/campus-latino/)
+The site is currently working and deployed [here.](http://www.campuslatino.tk)
 
 <img align="center" width="100%" src="https://worlddomination.be/static/img/src/radiocampus.jpg" alt="Radio Campus Banner">
