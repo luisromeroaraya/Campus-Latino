@@ -11,7 +11,7 @@ The podcast is actually a latin american radio program called [Campus Latino](ht
   
 <img width="500" src="https://static.pointculture.be/media/images/Radio_Campus_Bruxelles_studi.2e16d0ba.fill-1000x500-c100.jpg" alt="Radio Campus">
 
-## Campus Latino in Mixcloud platform
+## Campus Latino in the Mixcloud platform
 
 Episodes are uploaded weekly to the Mixcloud platform under the [Radio Campus account](https://www.mixcloud.com/radiocampusbruxelles/).
 
