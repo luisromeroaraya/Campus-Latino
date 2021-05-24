@@ -1,6 +1,7 @@
 {
   "name": "campus-latino",
   "version": "0.1.0",
+  "description": "Campus Latino 92.1 FM",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
