@@ -19,8 +19,8 @@ Episodes are uploaded weekly to the Mixcloud platform under the [Radio Campus ac
 
 Since Radio Campus hosts plenty of shows in their mixcloud account our shows are somehow lost in the sea. The goal of this project is to make an independent website where people can browse only between Campus Latino uploaded episodes.
 
-<img align="center" width="100%" src="https://worlddomination.be/static/img/src/radiocampus.jpg" alt="Radio Campus Banner">
-
 ## Current status
 
 The site is currently working and deployed [here](https://luisromeroaraya.github.io/Campus-Latino/)
+
+<img align="center" width="100%" src="https://worlddomination.be/static/img/src/radiocampus.jpg" alt="Radio Campus Banner">
