@@ -1,7 +1,13 @@
 <template>
   <div id="contact" class="container py-5">
     <h2 class="mb-3">Contacto</h2>
-    <form method="POST" action="https://submit-form.com/Fy3Hr5P9" data-botpoison-public-key="pk_6bc5391f-541a-456f-8ddc-02d475af848b" id="contact-form" style="max-width: 500px; margin: auto">
+    <form
+      method="POST"
+      action="https://submit-form.com/Fy3Hr5P9"
+      data-botpoison-public-key="pk_6bc5391f-541a-456f-8ddc-02d475af848b"
+      id="contact-form"
+      style="max-width: 500px; margin: auto"
+    >
       <!-- Name input -->
       <div class="form-outline mb-2">
         <input
@@ -42,6 +48,12 @@
           rows="4"
         ></textarea>
       </div>
+      <!-- Formspark custom redirect url -->
+      <input
+        type="hidden"
+        name="_redirect"
+        value="https://luisromeroaraya.github.io/campus-latino"
+      />
       <!-- Submit button -->
       <button type="submit" class="btn btn-primary btn-block">Enviar</button>
     </form>
