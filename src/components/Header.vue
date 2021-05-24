@@ -40,7 +40,7 @@
             <li class="nav-item align-self-center">
               <router-link to="/contact" class="nav-link">Contacto</router-link>
             </li>
-            <li id="player">
+            <li class="nav-item align-self-center" id="player">
               <audio preload="metadata" controls="controls">
                 Your browser does not support the <code>audio</code> element.
                 <source
