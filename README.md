@@ -5,7 +5,7 @@
 I'll create a podcast website using [Vue.js](https://vuejs.org/) and the [Mixcloud API](https://www.mixcloud.com/developers/).
 
 ## About Campus Latino
-<img width="250" src="https://i1.sndcdn.com/avatars-000035004735-ai31p0-t500x500.jpg" alt="Campus Latino">
+<p align="center"><img width="250" src="https://i1.sndcdn.com/avatars-000035004735-ai31p0-t500x500.jpg" alt="Campus Latino"></p>
 
 The podcast is actually a latin american radio program called [Campus Latino](https://www.radiocampus.be/les-communautaires/campus-latino/) which is part of the [Radio Campus Bruxelles 92.1 FM](https://www.radiocampus.be) broadcast schedule. You can listen to the show every Sunday between 11:00 and 14:30.
   
