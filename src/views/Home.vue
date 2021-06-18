@@ -4,7 +4,11 @@
     <br />
     <strong>La radio de la comunidad latinoamericana en Bruselas</strong>
     <br />
-    <p>Escucha nuestros podcasts anteriores <router-link to="/episodes">haciendo click aquí.</router-link></p>
+    <br />
+    <p>
+      Escucha nuestros podcasts anteriores
+      <router-link to="/episodes">haciendo click aquí.</router-link>
+    </p>
     <p>
       Mantente informado de nuestra programación semanal a través de nuestro
       <a
