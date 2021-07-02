@@ -52,7 +52,7 @@
       <input
         type="hidden"
         name="_redirect"
-        value="https://luisromeroaraya.github.io/campus-latino"
+        value="https://www.campuslatino.tk/contact"
       />
       <input type="hidden" name="_append" value="false" />
       <!-- Submit button -->
