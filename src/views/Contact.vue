@@ -52,7 +52,7 @@
       <input
         type="hidden"
         name="_redirect"
-        value="https://www.campuslatino.tk/contact"
+        value="http://www.campuslatino.tk/"
       />
       <input type="hidden" name="_append" value="false" />
       <!-- Submit button -->
