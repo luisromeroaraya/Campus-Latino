@@ -12,7 +12,9 @@
         <select id="filter" class="form-control" v-model="filterText">
           <option v-if="year == ''" selected value="">Todos</option>
           <option v-else value="">Todos</option>
-          <option value="2021">2021</option>
+          <option value="2022">2022</option>
+          <option v-if="year == 2021" selected value="2021">2021</option>
+          <option v-else value="2021">2021</option>
           <option v-if="year == 2020" selected value="2020">2020</option>
           <option v-else value="2020">2020</option>
           <option v-if="year == 2019" selected value="2019">2019</option>
