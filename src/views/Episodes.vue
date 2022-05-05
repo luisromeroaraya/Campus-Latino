@@ -59,7 +59,7 @@ export default {
   methods: {
     refreshEpisodes() {
       const URL =
-        "https://api.mixcloud.com/search/?limit=100&offset=0&q=campus+latino+:year&type=cloudcast";
+        "https://api.mixcloud.com/search/?limit=100&offset=0&q=campuslatino+:year&type=cloudcast";
       const url = URL.replace(":year", this.year);
       getEpisodes(url, this.episodes);
     },
