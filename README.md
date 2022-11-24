@@ -20,6 +20,6 @@ Since Radio Campus hosts plenty of shows in their mixcloud account our shows are
 
 ## Current status
 
-The site is currently working and deployed [here.](http://www.campuslatino.tk)
+The site is currently working and deployed [here.](http://www.campuslatino.ml)
 
 <img align="center" width="100%" src="https://worlddomination.be/static/img/src/radiocampus.jpg" alt="Radio Campus Banner">
