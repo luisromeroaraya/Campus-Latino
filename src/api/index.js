@@ -3,7 +3,7 @@ export default function getEpisodes(URL, episodes) {
         .then(res => res.json())
         .then(json => {
             json.data.forEach( function (element) {
-                if (element['key'].includes('campus-latino-')) {
+                if (element['key'].includes('/radiocampusbruxelles/campus-latino-')) {
                     episodes.push(element);
                 }
             });
